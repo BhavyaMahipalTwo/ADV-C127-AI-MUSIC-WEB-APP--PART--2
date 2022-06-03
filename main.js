@@ -6,9 +6,9 @@ function preload(){
     song2 = loadSound("music2.mp3");
 }
 
-function setup(){
-    canvas = createCanvas(500, 600);
-    canvas.center();
+function setup() {
+    canvas = createCanvas(500, 400);
+    canvas.position(500, 275);
 
     video = createCapture(VIDEO);
     video.hide();
@@ -17,4 +17,3 @@ function setup(){
 function draw(){
     image(video, 0, 0, 500, 600);
 }
-

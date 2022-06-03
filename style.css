@@ -7,8 +7,8 @@ h3{
     width: 100%;
     border: 5px solid yellow;
     box-shadow: 5px 5px 5px 25px orange;
-    margin: 15px;
-    padding: 15px;
+    margin: 5px;
+    padding: 5px;
 }
 
 #note{
@@ -21,7 +21,7 @@ body{
 
 canvas{
     box-shadow: 5px 5px 5px white;
-    border: 3px dashed black;
+    border: 3px dashed white;
     margin: 25px;
     padding: 10px;
 }
